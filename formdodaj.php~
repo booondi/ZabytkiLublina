@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Wyszukiwarka zabytków Lublina</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+
+
+<header>
+<h1>Zabytki Lublina</h1>
+</header>
+
+
+
+<nav>
+
+<a href="strona.html">Strona główna</a>&nbsp;
+<a href="lublin.html">Informacje o Lublinie</a>&nbsp;
+<a href="zabytki.html">Ogólnie o zabytkach</a>&nbsp;
+<a href="lista.php">Lista zabytków</a>&nbsp;
+<a href="wyszukiwarka.php">Wyszukiwarka zabytków</a>
+</nav>
+
+
+<main>
+    <h2><center>Dodaj nowy zabytek do bazy</center></h2>
+<form action="dodaj.php" method="post">
+    <table>
+  <tr>
+      <td><b>Nazwa zabytku:</b></td><td> <input type="text" name="nazwa"></td>
+      </tr>
+      <tr><td><b>Adres:</b></td><td> <input type="text" name="adres"></td></tr>
+    <tr><td><b>Opis:</b></td><td> <input type="text" name="opis"></td></tr>
+        <tr><td><b>Lata budowy:</b></td><td> <input type="text" name="latabudowy"></td></tr>
+        <tr><td><b>Styl:</b></td><td> <input type="text" name="styl"></td></tr>
+        <tr><td><b>Dzielnica:</b></td><td> <input type="text" name="dzielnica"></td></tr>
+        <tr><td><b>Link do strony:</b></td><td> <input type="text" name="link"></td></tr>
+        </table>
+        <small>Podane koniecznie według schematu, np. </i><?php echo htmlspecialchars('<a href="nazwazabytku.php">Nazwa Zabytku</a>');?></small>
+    <table>
+        <tr>
+        <tr><td><b>Link do zdjęcia:</b></td><td> <input type="text" name="zdjecie"></td></tr>
+    </table>
+        <small>Podane koniecznie według schematu, np. </i><?php echo htmlspecialchars('<img src="zdjecia/nazwazabytku.jpg" alt="Nazwa Zabytku">');?></small><p>
+    Możliwość dodania zdjęcie w kolejnym kroku.<br>
+<input type="submit" value="Wyślij">
+</form>
+
+<hr>
+Kliknij <a href="paneladmina.php">powrót</a> jeżeli chcesz anulować.
+</main>
+
+
+
+<footer>
+Patryk Bądos, praca licencjacka - UMCS, Wydział Matematyki, Fizyki i Informatyki. <a href="admin.php">Panel administratora</a>
+</footer>
+
+
+</body>
+</html>

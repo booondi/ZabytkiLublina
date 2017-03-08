@@ -1,0 +1,58 @@
+body{
+ background-color: #fffff5;;
+ font-size: medium;
+ font-family: Calibri;
+ background-image: url(zdjecia/tlo.png);
+ background-repeat: repeat;
+ background-attachment: fixed;
+}
+
+nav{
+ background-color:  	#363636;
+ text-align:center;
+}
+
+lista{
+ margin: 0px;
+ float: left;
+ padding-top: 5px;
+padding-bottom: 5px;
+ margin-bottom:15px;
+ margin-left: 100px;
+ opacity:1;
+padding-left:15px;
+ padding-right:15px;
+    background-image: url(zdjecia/cream_pixels.png);
+}
+
+main{
+ margin-bottom:15px;
+ margin-right:100px;
+ margin-left:355px;
+ padding-top:15px;
+ padding-bottom:15px;
+ padding-left:15px;
+ padding-right:15px;
+ text-align:justify;
+    background-image: url(zdjecia/cream_pixels.png);
+}
+
+
+footer{
+ clear: both;
+ background-color: #FFFFFF;
+ color: #181818;
+ text-align: center;
+ opacity:1;
+     background-image: url(zdjecia/cream_pixels.png);
+}
+
+
+img{
+	width:50%;
+	height:50%;
+}
+
+li{
+    list-style-type:square;
+}
